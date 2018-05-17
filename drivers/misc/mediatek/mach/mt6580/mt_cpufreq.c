@@ -132,13 +132,13 @@ extern unsigned int mt_get_cpu_freq(void);
 
 /* for DVFS OPP table */
 #define CPU_DVFS_FREQ0   (1795000)	/* KHz */
-#define CPU_DVFS_FREQ1   (1800000)	/* KHz */
-#define CPU_DVFS_FREQ2   (1600000)	/* KHz */
-#define CPU_DVFS_FREQ3   (1450000)	/* KHz */
-#define CPU_DVFS_FREQ4   (1300000)	/* KHz */
-#define CPU_DVFS_FREQ5   (1001000) /* KHz */
-#define CPU_DVFS_FREQ6   (604500) /* KHz */	/* 1.209/2 */
-#define CPU_DVFS_FREQ7   (204500) /* KHz */	/* 909/2 */
+#define CPU_DVFS_FREQ1   (1600000)	/* KHz */
+#define CPU_DVFS_FREQ2   (1459000)	/* KHz */
+#define CPU_DVFS_FREQ3   (1300000)	/* KHz */
+#define CPU_DVFS_FREQ4   (1001000)	/* KHz */
+#define CPU_DVFS_FREQ5   (903500) /* KHz */	/* 1.807/2 */
+#define CPU_DVFS_FREQ6   (754000) /* KHz */	/* 1.508/2 */
+#define CPU_DVFS_FREQ7   (604500) /* KHz */	/* 1.209/2 */
 
 #define CPUFREQ_LAST_FREQ_LEVEL    (CPU_DVFS_FREQ7)
 
@@ -4025,5 +4025,3 @@ module_exit(_mt_cpufreq_pdrv_exit);
 
 MODULE_DESCRIPTION("MediaTek CPU DVFS Driver v0.3");
 MODULE_LICENSE("GPL");
-
-
