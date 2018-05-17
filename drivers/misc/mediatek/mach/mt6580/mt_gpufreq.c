@@ -112,7 +112,7 @@
 /**************************
  * GPU DVFS OPP table setting
  ***************************/
-#define GPU_DVFS_FREQ0     (1200500)   // KHz
+#define GPU_DVFS_FREQ0     (1000500)   // KHz
 #define GPU_DVFS_FREQ1     (916000)   // KHz
 #define GPU_DVFS_FREQ2     (816000)   // KHz
 #define GPU_DVFS_FREQ3     (300300)   // KHz
@@ -2347,5 +2347,3 @@ module_exit(_mt_gpufreq_exit);
 
 MODULE_DESCRIPTION("MediaTek GPU Frequency Scaling driver");
 MODULE_LICENSE("GPL");
-
-
