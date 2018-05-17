@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "newkernel"]
+	url = git@github.com:MCrazy/kernel-3.10.x-8050
+	fetch = +refs/heads/*:refs/remotes/newkernel/*
